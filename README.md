@@ -8,7 +8,7 @@ MyRestaurant is a single-page application designed to simulate a restaurant orde
 ***Product Display:*** Users can view the name and image of each food item.
 The application let you see both the name and image of each product then gives you the flexibility to add between one to five 5 items to the cart at once with a single button click. 
 
-[item image](https://github.com/codewar193/TASK/upload/main/src/assets/image/Item.png?raw=true)
+![item image](https://github.com/codewar193/TASK/upload/main/src/assets/image/Item.png?raw=true)
 
  ***Cart button:*** located at the navbar in the header section, this buttons contains a counter in a badge, which counts the number of items in the cart an if there are no items in the cart, it displays 0. For a better user experience on the frontend of the application, the button undergoes a subtle bump whenever an item has being added to the cart.
 
