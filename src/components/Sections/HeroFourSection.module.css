@@ -1,0 +1,139 @@
+.row {
+  padding: 100px 0 50px 0;
+  max-width: 1200px;
+}
+
+.text_div {
+  padding-right: 10%;
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+.text_header {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text_content {
+  font-size: 24px;
+}
+
+
+.text_modal_header {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text_modal_header::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 130px;
+  background-color: var(--primaryitemcolor);
+}
+
+.image {
+  width: 100%;
+}
+
+.about_modal {
+  padding: 30px;
+}
+
+.about_body {
+  overflow-y: auto;
+  max-height: 300px;
+  margin-top: 20px;
+}
+
+.button_modal_div {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.about_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.about_table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table_label {
+  font-weight: bold;
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.scrollableContent {
+  max-height: 300px; 
+  overflow-y: auto;
+  border: 1px solid #ccc; 
+}
+
+/* Images - For About As Section */
+
+
+.image {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.image_div {
+  width: 60%;
+  margin-left: auto;
+}
+
+.carouselCaptionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.carouselCaption {
+  background: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .text_div {
+    padding-right: 0;
+    position: static;
+    transform: translateY(0);
+  }
+
+  .image_div {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .text_header,
+  .text_modal_header {
+    font-size: 36px;
+  }
+
+  .text_content {
+    font-size: 20px;
+  }
+
+  .button_modal_div {
+    margin-top: 10px;
+  }
+
+  .about_modal {
+    padding: 20px;
+  }
+}
